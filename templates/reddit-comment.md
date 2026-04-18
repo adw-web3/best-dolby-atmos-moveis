@@ -10,7 +10,6 @@ title: ""                    # short summary of what the comment is about
 authority_tier: unknown
 is_ranked_list: false        # true if the commenter lists movies in ranked order
 list_length:
-notes: ""
 
 # Reddit-specific fields
 subreddit: ""
@@ -24,11 +23,4 @@ movies_mentioned:
     year:
     normalized_title: ""
     rank:
-    sentiment: positive
-    quote: ""
-    notes: ""
 ---
-
-## Raw source text
-
-<!-- Paste the comment verbatim. -->

@@ -1,6 +1,61 @@
-# Methodology — work in progress
+# Methodology
 
-> **Status:** Data collection phase. The scoring algorithm below is a **live discussion document**, not a final spec. Decisions will be made once enough source data has been gathered to see the real distribution (how ranked lists are structured, what Reddit upvote counts look like, how sources cluster by authority). This doc is the audit trail for how the algorithm evolves.
+> **Status:** v1 scoring algorithm is implemented in [`scoring/score.py`](../scoring/score.py). Outputs land in [`output/top-100.md`](../output/top-100.md) and [`output/ranking.csv`](../output/ranking.csv). Re-run the script any time new sources are added.
+
+## Scoring algorithm (v1)
+
+For every movie mention in every source file:
+
+```
+score_per_mention = tier_multiplier × rank_multiplier × engagement_multiplier
+```
+
+Then the **aggregate score per film** is the sum of that across all mentions of the same `normalized_title`.
+
+### Tier multiplier — articles only
+
+Applied to blog and news sources. Reddit and YouTube pin this to `1.0` (they're weighted by engagement instead).
+
+| Tier | Weight |
+|---|---|
+| `top` | 3.0 |
+| `high` | 2.0 |
+| `mid` | 1.0 |
+| `low` | 0.25 |
+
+Tier assignments live in [source-authority-tiers.md](source-authority-tiers.md).
+
+### Rank multiplier — ranked lists only
+
+Applied when `is_ranked_list: true`. Defaults to `1.0` otherwise.
+
+```
+rank_multiplier = 1 + ((list_length - rank + 1) / list_length) × 0.5
+```
+
+Max 1.5× for rank 1, ~1.05× for the last entry. Intentionally modest — being #1 of 10 is a stronger signal than being #10, but not dominantly so.
+
+### Engagement multiplier — per source type
+
+- **Articles** (blog, news): `1.0` (no engagement adjustment; already weighted by tier)
+- **Reddit post — OP body**: `sqrt(post_upvotes)`
+- **Reddit post — comment**: `sqrt(comment_upvotes)`
+- **Reddit comment** (standalone file): `sqrt(comment_upvotes)`
+- **YouTube**: `sqrt(video_views + channel_subscribers / 10) / 50`
+
+Square-root scaling was chosen deliberately: linear lets one viral comment crush the dataset, log scaling is so flat it ignores genuine upvote signal, sqrt is the middle ground that respects community validation without collapsing the ranking onto any single voice.
+
+The `/ 50` normalizer on YouTube brings big-channel videos into a range comparable to article tiers and Reddit upvote weights — without it, a single 100K-view YouTube video would outweigh the combined signal from all article sources.
+
+### Tie-breaking
+
+Identical scores sort by: mention count (desc), then normalized_title (asc).
+
+### Deferred for v1
+
+- **Recency decay** — older sources weighted the same as newer ones. Layer in later if useful.
+- **Sentiment** — the schema doesn't capture sentiment, so every mention is treated as positive. Fine in practice: contributors almost exclusively post positive recommendations; explicit negative mentions are filtered out during source capture (see `CHANGE LOG` below).
+- **Community phase bonus** — a reserved scoring bucket for after the draft list is posted to the project's subreddit.
 
 ## Goal
 
@@ -8,9 +63,9 @@ Produce a transparent, reproducible top-100 ranking of the best Dolby Atmos movi
 
 ## Principles
 
-1. **Every source is preserved verbatim.** The raw text of every article, post, and comment is kept in the source file so any reader can verify the structured data against the original.
-2. **Structured metadata is added by hand** (for now — a script may assist later). A human reads each source and records every movie mention with a short quote, sentiment, and (if applicable) rank position.
-3. **The algorithm is auditable.** Every score a movie receives can be traced back to the specific source files and mentions that contributed to it.
+1. **Every source is linked back to its original.** Each source file records the canonical URL so any reader can follow it to the original article, post, or comment.
+2. **Structured metadata is added by hand.** A human reads each source and records every movie it recommends, plus rank position if the source is a ranked list. Explicit non-Atmos mentions and negative/critical mentions are filtered out at capture time.
+3. **The algorithm is auditable.** Every score a movie receives can be traced back to the specific source files and mentions that contributed to it. Grep the repo for any `normalized_title` to see all mentions feeding its score.
 4. **Nothing is hidden.** Source authority tier assignments, algorithm weights, and any changes to the scoring are committed to this repo with explanations.
 
 ## Candidate scoring factors (to be calibrated)
@@ -26,10 +81,10 @@ The factors below are on the table. Weights and exact formulas will be decided o
 
 - **Source authority tier** — outlets like IGN, What Hi-Fi, Dolby's own reference lists, and well-known home-theater publications should weigh more than small personal blogs. Tiers tracked in [source-authority-tiers.md](source-authority-tiers.md). Tier weights TBD.
 - **Reddit upvote scaling** — a comment with 500 upvotes carries more signal than one with 3, but the relationship is almost certainly non-linear (log or square-root). Will calibrate once we see the upvote distribution across collected sources.
+- **YouTube engagement scaling** — videos carry signal based on channel subscribers and view count. Like Reddit, the relationship is almost certainly non-linear. A list on a 2M-subscriber AV channel with 500K views should weigh more than a 300-view video on a 1K-subscriber channel. Calibrate once data distribution is clearer.
 
 ### Under consideration (lower priority, pending data)
 
-- **Sentiment** — "demo disc quality" is a different signal from "the Atmos mix is disappointing." Negative/critical mentions may score zero or negative. Needs careful definition so we don't silently penalize legitimate critique.
 - **Recency decay** — the Atmos catalog grows quickly and mixing standards change. Older "best of" lists may deserve lower weight. Needs a defensible half-life.
 - **Community phase bonus** — reserved scoring bucket applied after the draft list is posted to the project's subreddit. Exact mechanic TBD; likely a structured upvote/comment poll rather than freeform text mining.
 
@@ -42,6 +97,7 @@ The factors below are on the table. Weights and exact formulas will be decided o
 
 ## Change log
 
-Every change to the scoring algorithm or tier assignments will be recorded here, dated, with a one-line reason. This is the audit trail.
+Every change to the scoring algorithm or tier assignments is recorded here.
 
-- *(none yet — scoring algorithm not yet defined)*
+- **2026-04-18** — v1 algorithm implemented. Tier weights `top=3.0/high=2.0/mid=1.0/low=0.25`, rank bonus max 1.5× for #1, sqrt engagement scaling for Reddit, `sqrt(views + subs/10) / 50` for YouTube. See `scoring/score.py`.
+- **2026-04-18** — Tier assignments made for sources 001–016. 3 top, 6 high, 3 mid, 4 low. See [source-authority-tiers.md](source-authority-tiers.md).

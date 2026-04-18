@@ -7,7 +7,7 @@
 *.swp
 *~
 
-# Python (for the future scoring script phase)
+# Python
 __pycache__/
 *.pyc
 .venv/
