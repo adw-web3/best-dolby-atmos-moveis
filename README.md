@@ -46,8 +46,4 @@ Each source file is pure YAML frontmatter with structured metadata: source name,
 
 ## How to contribute (once the draft is out)
 
-The community input phase will run on the project's subreddit. Details will be posted here when the draft list is published.
-
-## License
-
-*(TBD)*
+The community input phase will run on r/DolbyAtmosContent subreddit. Details will be posted here when the draft list is published.
