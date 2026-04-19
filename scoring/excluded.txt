@@ -1,0 +1,12 @@
+# Films excluded from the Top 100 ranking because they don't have a Dolby Atmos mix.
+#
+# This file is the exclusion list applied by scoring/score.py. Entries here are
+# still captured in source files (we don't revise history) but don't contribute
+# to the final ranking.
+#
+# Format: one normalized_title per line. Blank lines and lines starting with # are ignored.
+# Add a comment on the line above each entry explaining why it's excluded.
+
+# Christopher Nolan does not mix his films in Dolby Atmos; Interstellar ships in 5.1 only.
+# Multiple commenters across sources 023, 029, 031 confirm this.
+interstellar
