@@ -7,6 +7,18 @@
 # Format: one normalized_title per line. Blank lines and lines starting with # are ignored.
 # Add a comment on the line above each entry explaining why it's excluded.
 
-# Christopher Nolan does not mix his films in Dolby Atmos; Interstellar ships in 5.1 only.
-# Multiple commenters across sources 023, 029, 031 confirm this.
+# Christopher Nolan does not mix his films in Dolby Atmos; these ship in 5.1 only.
+# Multiple commenters across several sources confirm this (e.g. 023, 026, 029, 031, 032).
 interstellar
+oppenheimer
+tenet
+dunkirk
+
+# Arrival (Villeneuve, 2016) predates Villeneuve's Atmos work and has no Atmos mix.
+# Explicitly confirmed in sources 028, 029.
+arrival
+
+# Prometheus (2012) is DTS-HD only, never got an Atmos release.
+# Sources 030 and 035 have commenters pointing out the distinction:
+# Alien: Covenant (2017) got the Atmos treatment, Prometheus did not.
+prometheus-2012
