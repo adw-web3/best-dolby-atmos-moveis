@@ -94,229 +94,227 @@ rank,normalized_title,title,year,score,mentions,num_sources
 93,top-gun-1986,Top Gun,1986,7.606,3,3
 94,300,300,2006,7.414,5,3
 95,evil-dead-rise,Evil Dead Rise,2023,7.359,3,3
-96,super-8,Super 8,2011,7.312,3,2
-97,a-quiet-place-day-one,A Quiet Place: Day One,2024,7.123,4,4
-98,star-wars-the-last-jedi,Star Wars: The Last Jedi,2017,7.071,1,1
-99,terminator-2,Terminator 2,1991,7.071,1,1
-100,the-amazing-spider-man-2012,The Amazing Spider-Man,2012,7.071,1,1
-101,all-quiet-on-the-western-front-2022,All Quiet on the Western Front,2022,6.828,6,5
-102,alien-romulus,Alien: Romulus,2024,6.650,5,2
-103,the-invisible-man-2020,The Invisible Man,2020,6.639,3,3
-104,the-guns-of-navarone,The Guns of Navarone,1961,6.629,2,2
-105,elvis-2022,Elvis,2022,6.606,2,2
-106,nosferatu-2024,Nosferatu,2024,6.600,2,2
-107,transformers-the-last-knight,Transformers: The Last Knight,2017,6.449,4,3
-108,gladiator,Gladiator,2000,6.414,6,1
-109,angel-has-fallen,Angel Has Fallen,2019,6.414,3,3
-110,the-matrix-revolutions,The Matrix Revolutions,2003,6.110,3,3
-111,sicario,Sicario,2015,6.008,2,2
-112,mother-2017,mother!,2017,6.000,2,2
-113,nobody,Nobody,2021,6.000,2,2
-114,kung-fu-panda,Kung Fu Panda,2008,5.897,2,2
-115,roger-waters-the-wall,Roger Waters The Wall,2014,5.897,2,2
-116,rogue-one-a-star-wars-story,Rogue One: A Star Wars Story,2016,5.897,2,2
-117,joker-2019,Joker,2019,5.732,3,3
-118,la-la-land,La La Land,2016,5.500,5,5
-119,district-9,District 9,2009,5.484,3,2
-120,alien-1979,Alien,1979,5.464,3,2
-121,the-mitchells-vs-the-machines,The Mitchells vs. the Machines,2021,5.449,2,2
-122,the-matrix-reloaded,The Matrix Reloaded,2003,5.095,2,2
-123,shutter-island,Shutter Island,2010,5.064,3,1
-124,the-wild-robot,The Wild Robot,2024,5.050,2,2
-125,the-power-of-the-dog,The Power of the Dog,2021,5.000,2,2
-126,skyfall,Skyfall,2012,5.000,1,1
-127,deadpool-and-wolverine,Deadpool & Wolverine,2024,4.996,3,2
-128,jupiter-ascending,Jupiter Ascending,2015,4.897,1,1
-129,last-action-hero,Last Action Hero,1993,4.897,1,1
-130,pitch-black,Pitch Black,2000,4.897,1,1
-131,rocketman,Rocketman,2019,4.897,1,1
-132,san-andreas,San Andreas,2015,4.897,1,1
-133,speed-1994,Speed,1994,4.897,1,1
-134,the-dark-knight,The Dark Knight,2008,4.897,1,1
-135,the-dark-knight-rises,The Dark Knight Rises,2012,4.897,1,1
-136,the-greatest-showman,The Greatest Showman,2017,4.818,4,2
-137,indiana-jones-and-the-dial-of-destiny,Indiana Jones and the Dial of Destiny,2023,4.732,2,2
-138,spider-man-2-2004,Spider-Man 2,2004,4.646,2,2
-139,swordfish,Swordfish,2001,4.606,2,1
-140,the-house-with-a-clock-in-its-walls,The House with a Clock in its Walls,2018,4.516,3,2
-141,bumblebee,Bumblebee,2018,4.464,2,2
-142,the-hurt-locker,The Hurt Locker,2008,4.464,2,2
-143,alien-covenant,Alien: Covenant,2017,4.449,3,3
-144,final-destination-bloodlines,Final Destination: Bloodlines,2025,4.200,1,1
-145,it-2017,It,2017,4.162,2,2
-146,weapons-2025,Weapons,2025,4.146,3,2
-147,jurassic-world-fallen-kingdom,Jurassic World: Fallen Kingdom,2018,4.060,2,2
-148,the-hobbit-the-desolation-of-smaug,The Hobbit: The Desolation of Smaug,2013,4.058,3,3
-149,transformers-revenge-of-the-fallen,Transformers: Revenge of the Fallen,2009,4.000,4,3
-150,cutthroat-island,Cutthroat Island,1995,4.000,3,1
-151,space-jam-a-new-legacy,Space Jam: A New Legacy,2021,4.000,2,2
-152,the-matrix-resurrections,The Matrix Resurrections,2021,4.000,2,2
-153,the-martian,The Martian,2015,3.917,3,3
-154,kingdom-of-heaven,Kingdom of Heaven,2005,3.900,1,1
-155,a-complete-unknown,A Complete Unknown,2024,3.750,1,1
-156,jaws,Jaws,1975,3.745,2,2
-157,zack-snyders-justice-league,Zack Snyder's Justice League,2021,3.732,3,1
-158,the-creator-2023,The Creator,2023,3.732,2,2
-159,leave-the-world-behind,Leave the World Behind,2023,3.650,2,2
-160,superman-2025,Superman,2025,3.606,1,1
-161,the-amazing-spider-man-2,The Amazing Spider-Man 2,2014,3.606,1,1
-162,deadpool-2,Deadpool 2,2018,3.464,1,1
-163,lone-survivor,Lone Survivor,2013,3.464,1,1
-164,marcel-the-shell-with-shoes-on,Marcel the Shell with Shoes On,2021,3.464,1,1
-165,parasite,Parasite,2019,3.464,1,1
-166,the-northman,The Northman,2022,3.464,1,1
-167,wonder-woman-2017,Wonder Woman,2017,3.464,1,1
-168,the-last-voyage-of-the-demeter,The Last Voyage of the Demeter,2023,3.450,1,1
-169,pet-sematary-2019,Pet Sematary,2019,3.317,1,1
-170,black-panther,Black Panther,2018,3.250,2,2
-171,coraline,Coraline,2009,3.236,2,2
-172,war-for-the-planet-of-the-apes,War for the Planet of the Apes,2017,3.236,2,2
-173,ballerina-2025,From the World of John Wick: Ballerina,2025,3.150,1,1
-174,haunted-mansion-2023,Haunted Mansion,2023,3.000,3,2
-175,incredibles-2,Incredibles 2,2018,3.000,2,2
-176,scott-pilgrim-vs-the-world,Scott Pilgrim vs. the World,2010,3.000,2,2
-177,a-haunting-in-venice,A Haunting in Venice,2023,3.000,1,1
-178,belfast,Belfast,2021,3.000,1,1
-179,black-adam,Black Adam,2022,3.000,1,1
-180,conclave,Conclave,2024,3.000,1,1
-181,dc-league-of-super-pets,DC League of Super-Pets,2022,3.000,1,1
-182,everything-everywhere-all-at-once,Everything Everywhere All at Once,2022,3.000,1,1
-183,frankenstein-2025,Frankenstein,2025,3.000,1,1
-184,mortal-kombat-2021,Mortal Kombat,2021,3.000,1,1
-185,swiss-army-man,Swiss Army Man,2016,3.000,1,1
-186,the-many-saints-of-newark,The Many Saints of Newark,2021,3.000,1,1
-187,the-tomorrow-war,The Tomorrow War,2021,3.000,1,1
-188,thunderbolts,Thunderbolts,2025,3.000,1,1
-189,tom-and-jerry-2021,Tom & Jerry,2021,3.000,1,1
-190,training-day,Training Day,2001,3.000,1,1
-191,wicked,Wicked,2024,3.000,1,1
-192,a-star-is-born-2018,A Star Is Born,2018,2.800,1,1
-193,ant-man-and-the-wasp,Ant-Man and the Wasp,2018,2.646,1,1
-194,crimson-peak,Crimson Peak,2015,2.646,1,1
-195,pinocchio-del-toro-2022,Guillermo del Toro's Pinocchio,2022,2.646,1,1
-196,the-princess-and-the-frog,The Princess and the Frog,2009,2.646,1,1
-197,star-wars-the-rise-of-skywalker,Star Wars: The Rise of Skywalker,2019,2.414,2,2
-198,spider-man-homecoming,Spider-Man: Homecoming,2017,2.266,2,2
-199,jumanji-welcome-to-the-jungle,Jumanji: Welcome to the Jungle,2017,2.250,2,2
-200,10-cloverfield-lane,10 Cloverfield Lane,2016,2.236,1,1
-201,hans-zimmer-in-vienna,Hans Zimmer in Vienna,2018,2.236,1,1
-202,john-williams-in-berlin,John Williams in Berlin,2022,2.236,1,1
-203,logan,Logan,2017,2.133,1,1
-204,annihilation-2018,Annihilation,2018,2.000,2,2
-205,evil-dead-2013,Evil Dead,2013,2.000,2,1
-206,iron-man-2008,Iron Man,2008,2.000,2,1
-207,the-thing-1982,The Thing,1982,2.000,2,1
-208,transformers-age-of-extinction,Transformers: Age of Extinction,2014,2.000,2,2
-209,candyman-2021,Candyman,2021,2.000,1,1
-210,mission-impossible-rogue-nation,Mission: Impossible - Rogue Nation,2015,2.000,1,1
-211,ratatouille,Ratatouille,2007,2.000,1,1
-212,shrek-2,Shrek 2,2004,2.000,1,1
-213,the-bourne-identity,The Bourne Identity,2002,2.000,1,1
-214,the-hobbit-an-unexpected-journey,The Hobbit: An Unexpected Journey,2012,2.000,1,1
-215,the-hobbit-the-battle-of-the-five-armies,The Hobbit: The Battle of the Five Armies,2014,2.000,1,1
-216,the-wolfs-call,The Wolf's Call,2019,2.000,1,1
-217,they-cloned-tyrone,They Cloned Tyrone,2023,2.000,1,1
-218,valerian-and-the-city-of-a-thousand-planets,Valerian and the City of a Thousand Planets,2017,2.000,1,1
-219,belle-2021,Belle,2021,1.732,1,1
-220,fantastic-beasts-and-where-to-find-them,Fantastic Beasts and Where to Find Them,2016,1.732,1,1
-221,godzilla-2014,Godzilla,2014,1.732,1,1
-222,greyhound,Greyhound,2020,1.732,1,1
-223,guardians-of-the-galaxy-vol-3,Guardians of the Galaxy Vol. 3,2023,1.732,1,1
-224,in-the-tall-grass,In the Tall Grass,2019,1.732,1,1
-225,jurassic-world-dominion,Jurassic World Dominion,2022,1.732,1,1
-226,king-kong-2005,King Kong,2005,1.732,1,1
-227,pulp-fiction,Pulp Fiction,1994,1.732,1,1
-228,spectre-2015,Spectre,2015,1.732,1,1
-229,spider-man-no-way-home,Spider-Man: No Way Home,2021,1.732,1,1
-230,the-cabin-in-the-woods,The Cabin in the Woods,2011,1.732,1,1
-231,the-suicide-squad-2021,The Suicide Squad,2021,1.732,1,1
-232,uncharted-2022,Uncharted,2022,1.732,1,1
-233,wolf-man-2025,Wolf Man,2025,1.732,1,1
-234,zero-dark-thirty,Zero Dark Thirty,2012,1.732,1,1
-235,moonfall,Moonfall,2022,1.662,1,1
-236,mortal-engines,Mortal Engines,2018,1.662,1,1
-237,fall-2022,Fall,2022,1.516,1,1
-238,the-burning-sea,The Burning Sea,2021,1.516,1,1
-239,the-hurricane-heist,The Hurricane Heist,2018,1.516,1,1
-240,the-quake-2018,The Quake,2018,1.516,1,1
-241,the-shallows,The Shallows,2016,1.516,1,1
-242,the-wave-2015,The Wave,2015,1.516,1,1
-243,65-2023,65,2023,1.414,1,1
-244,anna-2019,Anna,2019,1.414,1,1
-245,atomic-blonde,Atomic Blonde,2017,1.414,1,1
-246,chappie,Chappie,2015,1.414,1,1
-247,dark-city-1998,Dark City,1998,1.414,1,1
-248,den-of-thieves-2018,Den of Thieves,2018,1.414,1,1
-249,dirty-harry,Dirty Harry,1971,1.414,1,1
-250,extraction-2,Extraction 2,2023,1.414,1,1
-251,luther-the-fallen-sun-2023,Luther: The Fallen Sun,2023,1.414,1,1
-252,men-in-black-1997,Men in Black,1997,1.414,1,1
-253,predator-1987,Predator,1987,1.414,1,1
-254,raiders-of-the-lost-ark,Raiders of the Lost Ark,1981,1.414,1,1
-255,sisu-2022,Sisu,2022,1.414,1,1
-256,spirited-2022,Spirited,2022,1.414,1,1
-257,starship-troopers-1997,Starship Troopers,1997,1.414,1,1
-258,the-haunting-1999,The Haunting,1999,1.414,1,1
-259,the-prince-of-egypt,The Prince of Egypt,1998,1.414,1,1
-260,the-thing-2011,The Thing,2011,1.414,1,1
-261,dolby-amaze-and-leaf-shorts,"Dolby ""Amaze"" and ""Leaf"" Shorts",,1.019,1,1
-262,2001-a-space-odyssey,2001: A Space Odyssey,1968,1.000,1,1
-263,annabelle-creation,Annabelle: Creation,2017,1.000,1,1
-264,armageddon-1998,Armageddon,1998,1.000,1,1
-265,bad-boy-bubby,Bad Boy Bubby,1993,1.000,1,1
-266,bad-boys-ii,Bad Boys II,2003,1.000,1,1
-267,batman-returns,Batman Returns,1992,1.000,1,1
-268,becoming-led-zeppelin,Becoming Led Zeppelin,2025,1.000,1,1
-269,boy-kills-world,Boy Kills World,2023,1.000,1,1
-270,caddo-lake-2024,Caddo Lake,2024,1.000,1,1
-271,candy-cane-lane,Candy Cane Lane,2023,1.000,1,1
-272,cliffhanger,Cliffhanger,1993,1.000,1,1
-273,drive-2011,Drive,2011,1.000,1,1
-274,dungeons-and-dragons-honor-among-thieves,Dungeons & Dragons: Honor Among Thieves,2023,1.000,1,1
-275,early-man,Early Man,2018,1.000,1,1
-276,el-camino-a-breaking-bad-movie,El Camino: A Breaking Bad Movie,2019,1.000,1,1
-277,ex-machina-2014,Ex Machina,2014,1.000,1,1
-278,fantasia-1940,Fantasia,1940,1.000,1,1
-279,fantasia-2000,Fantasia 2000,1999,1.000,1,1
-280,get-out,Get Out,2017,1.000,1,1
-281,ghost-in-the-shell-2017,Ghost in the Shell,2017,1.000,1,1
-282,guns-akimbo,Guns Akimbo,2019,1.000,1,1
-283,how-to-train-your-dragon,How to Train Your Dragon,2010,1.000,1,1
-284,jack-reacher,Jack Reacher,2012,1.000,1,1
-285,jim-button-and-luke-the-engine-driver,Jim Button and Luke the Engine Driver,2018,1.000,1,1
-286,jung-e-2023,Jung_E,2023,1.000,1,1
-287,killers-of-the-flower-moon,Killers of the Flower Moon,2023,1.000,1,1
-288,king-arthur-legend-of-the-sword,King Arthur: Legend of the Sword,2017,1.000,1,1
-289,kubo-and-the-two-strings,Kubo and the Two Strings,2016,1.000,1,1
-290,land-of-bad-2024,Land of Bad,2024,1.000,1,1
-291,missing-link-2019,Missing Link,2019,1.000,1,1
-292,mission-impossible-dead-reckoning,Mission: Impossible – Dead Reckoning Part One,2023,1.000,1,1
-293,mission-impossible-the-final-reckoning,Mission: Impossible – The Final Reckoning,2025,1.000,1,1
-294,mr-and-mrs-smith-2005,Mr. & Mrs. Smith,2005,1.000,1,1
-295,murder-on-the-orient-express-2017,Murder on the Orient Express,2017,1.000,1,1
-296,no-one-will-save-you,No One Will Save You,2023,1.000,1,1
-297,one-battle-after-another,One Battle After Another,2025,1.000,1,1
-298,pearl-harbor,Pearl Harbor,2001,1.000,1,1
-299,pride-and-prejudice-2005,Pride and Prejudice,2005,1.000,1,1
-300,puss-in-boots-the-last-wish,Puss in Boots: The Last Wish,2022,1.000,1,1
-301,rebel-ridge,Rebel Ridge,2024,1.000,1,1
-302,robocop-2014,RoboCop,2014,1.000,1,1
-303,shaun-the-sheep-farmageddon,Shaun the Sheep: Farmageddon,2019,1.000,1,1
-304,sonic-the-hedgehog-2020,Sonic the Hedgehog,2020,1.000,1,1
-305,star-trek-2009,Star Trek,2009,1.000,1,1
-306,talk-to-me-2022,Talk to Me,2022,1.000,1,1
-307,the-adam-project,The Adam Project,2022,1.000,1,1
-308,the-doors,The Doors,1991,1.000,1,1
-309,the-exorcist,The Exorcist,1973,1.000,1,1
-310,the-frighteners,The Frighteners,1996,1.000,1,1
-311,the-grinch-2018,The Grinch,2018,1.000,1,1
-312,the-killer-2023,The Killer,2023,1.000,1,1
-313,the-long-kiss-goodnight,The Long Kiss Goodnight,1996,1.000,1,1
-314,the-mummy-2017,The Mummy,2017,1.000,1,1
-315,the-terminator,The Terminator,1984,1.000,1,1
-316,the-witch,The Witch,2015,1.000,1,1
-317,u-571,U-571,2000,1.000,1,1
-318,uglies-2024,Uglies,2024,1.000,1,1
-319,wild-wild-west,Wild Wild West,1999,1.000,1,1
-320,zootopia-2,Zootopia 2,2025,1.000,1,1
-321,coco,Coco,2017,0.250,1,1
+96,a-quiet-place-day-one,A Quiet Place: Day One,2024,7.123,4,4
+97,star-wars-the-last-jedi,Star Wars: The Last Jedi,2017,7.071,1,1
+98,the-amazing-spider-man-2012,The Amazing Spider-Man,2012,7.071,1,1
+99,all-quiet-on-the-western-front-2022,All Quiet on the Western Front,2022,6.828,6,5
+100,alien-romulus,Alien: Romulus,2024,6.650,5,2
+101,the-invisible-man-2020,The Invisible Man,2020,6.639,3,3
+102,the-guns-of-navarone,The Guns of Navarone,1961,6.629,2,2
+103,elvis-2022,Elvis,2022,6.606,2,2
+104,nosferatu-2024,Nosferatu,2024,6.600,2,2
+105,transformers-the-last-knight,Transformers: The Last Knight,2017,6.449,4,3
+106,gladiator,Gladiator,2000,6.414,6,1
+107,angel-has-fallen,Angel Has Fallen,2019,6.414,3,3
+108,the-matrix-revolutions,The Matrix Revolutions,2003,6.110,3,3
+109,sicario,Sicario,2015,6.008,2,2
+110,mother-2017,mother!,2017,6.000,2,2
+111,nobody,Nobody,2021,6.000,2,2
+112,kung-fu-panda,Kung Fu Panda,2008,5.897,2,2
+113,roger-waters-the-wall,Roger Waters The Wall,2014,5.897,2,2
+114,rogue-one-a-star-wars-story,Rogue One: A Star Wars Story,2016,5.897,2,2
+115,joker-2019,Joker,2019,5.732,3,3
+116,la-la-land,La La Land,2016,5.500,5,5
+117,district-9,District 9,2009,5.484,3,2
+118,alien-1979,Alien,1979,5.464,3,2
+119,the-mitchells-vs-the-machines,The Mitchells vs. the Machines,2021,5.449,2,2
+120,the-matrix-reloaded,The Matrix Reloaded,2003,5.095,2,2
+121,shutter-island,Shutter Island,2010,5.064,3,1
+122,the-wild-robot,The Wild Robot,2024,5.050,2,2
+123,the-power-of-the-dog,The Power of the Dog,2021,5.000,2,2
+124,skyfall,Skyfall,2012,5.000,1,1
+125,deadpool-and-wolverine,Deadpool & Wolverine,2024,4.996,3,2
+126,jupiter-ascending,Jupiter Ascending,2015,4.897,1,1
+127,last-action-hero,Last Action Hero,1993,4.897,1,1
+128,pitch-black,Pitch Black,2000,4.897,1,1
+129,rocketman,Rocketman,2019,4.897,1,1
+130,san-andreas,San Andreas,2015,4.897,1,1
+131,speed-1994,Speed,1994,4.897,1,1
+132,the-dark-knight,The Dark Knight,2008,4.897,1,1
+133,the-dark-knight-rises,The Dark Knight Rises,2012,4.897,1,1
+134,the-greatest-showman,The Greatest Showman,2017,4.818,4,2
+135,indiana-jones-and-the-dial-of-destiny,Indiana Jones and the Dial of Destiny,2023,4.732,2,2
+136,spider-man-2-2004,Spider-Man 2,2004,4.646,2,2
+137,swordfish,Swordfish,2001,4.606,2,1
+138,the-house-with-a-clock-in-its-walls,The House with a Clock in its Walls,2018,4.516,3,2
+139,bumblebee,Bumblebee,2018,4.464,2,2
+140,the-hurt-locker,The Hurt Locker,2008,4.464,2,2
+141,alien-covenant,Alien: Covenant,2017,4.449,3,3
+142,final-destination-bloodlines,Final Destination: Bloodlines,2025,4.200,1,1
+143,it-2017,It,2017,4.162,2,2
+144,weapons-2025,Weapons,2025,4.146,3,2
+145,jurassic-world-fallen-kingdom,Jurassic World: Fallen Kingdom,2018,4.060,2,2
+146,the-hobbit-the-desolation-of-smaug,The Hobbit: The Desolation of Smaug,2013,4.058,3,3
+147,transformers-revenge-of-the-fallen,Transformers: Revenge of the Fallen,2009,4.000,4,3
+148,cutthroat-island,Cutthroat Island,1995,4.000,3,1
+149,space-jam-a-new-legacy,Space Jam: A New Legacy,2021,4.000,2,2
+150,the-matrix-resurrections,The Matrix Resurrections,2021,4.000,2,2
+151,the-martian,The Martian,2015,3.917,3,3
+152,kingdom-of-heaven,Kingdom of Heaven,2005,3.900,1,1
+153,a-complete-unknown,A Complete Unknown,2024,3.750,1,1
+154,jaws,Jaws,1975,3.745,2,2
+155,zack-snyders-justice-league,Zack Snyder's Justice League,2021,3.732,3,1
+156,the-creator-2023,The Creator,2023,3.732,2,2
+157,leave-the-world-behind,Leave the World Behind,2023,3.650,2,2
+158,superman-2025,Superman,2025,3.606,1,1
+159,the-amazing-spider-man-2,The Amazing Spider-Man 2,2014,3.606,1,1
+160,deadpool-2,Deadpool 2,2018,3.464,1,1
+161,lone-survivor,Lone Survivor,2013,3.464,1,1
+162,marcel-the-shell-with-shoes-on,Marcel the Shell with Shoes On,2021,3.464,1,1
+163,parasite,Parasite,2019,3.464,1,1
+164,the-northman,The Northman,2022,3.464,1,1
+165,wonder-woman-2017,Wonder Woman,2017,3.464,1,1
+166,the-last-voyage-of-the-demeter,The Last Voyage of the Demeter,2023,3.450,1,1
+167,pet-sematary-2019,Pet Sematary,2019,3.317,1,1
+168,black-panther,Black Panther,2018,3.250,2,2
+169,coraline,Coraline,2009,3.236,2,2
+170,war-for-the-planet-of-the-apes,War for the Planet of the Apes,2017,3.236,2,2
+171,ballerina-2025,From the World of John Wick: Ballerina,2025,3.150,1,1
+172,haunted-mansion-2023,Haunted Mansion,2023,3.000,3,2
+173,incredibles-2,Incredibles 2,2018,3.000,2,2
+174,scott-pilgrim-vs-the-world,Scott Pilgrim vs. the World,2010,3.000,2,2
+175,a-haunting-in-venice,A Haunting in Venice,2023,3.000,1,1
+176,belfast,Belfast,2021,3.000,1,1
+177,black-adam,Black Adam,2022,3.000,1,1
+178,conclave,Conclave,2024,3.000,1,1
+179,dc-league-of-super-pets,DC League of Super-Pets,2022,3.000,1,1
+180,everything-everywhere-all-at-once,Everything Everywhere All at Once,2022,3.000,1,1
+181,frankenstein-2025,Frankenstein,2025,3.000,1,1
+182,mortal-kombat-2021,Mortal Kombat,2021,3.000,1,1
+183,swiss-army-man,Swiss Army Man,2016,3.000,1,1
+184,the-many-saints-of-newark,The Many Saints of Newark,2021,3.000,1,1
+185,the-tomorrow-war,The Tomorrow War,2021,3.000,1,1
+186,thunderbolts,Thunderbolts,2025,3.000,1,1
+187,tom-and-jerry-2021,Tom & Jerry,2021,3.000,1,1
+188,training-day,Training Day,2001,3.000,1,1
+189,wicked,Wicked,2024,3.000,1,1
+190,a-star-is-born-2018,A Star Is Born,2018,2.800,1,1
+191,ant-man-and-the-wasp,Ant-Man and the Wasp,2018,2.646,1,1
+192,crimson-peak,Crimson Peak,2015,2.646,1,1
+193,pinocchio-del-toro-2022,Guillermo del Toro's Pinocchio,2022,2.646,1,1
+194,the-princess-and-the-frog,The Princess and the Frog,2009,2.646,1,1
+195,star-wars-the-rise-of-skywalker,Star Wars: The Rise of Skywalker,2019,2.414,2,2
+196,spider-man-homecoming,Spider-Man: Homecoming,2017,2.266,2,2
+197,jumanji-welcome-to-the-jungle,Jumanji: Welcome to the Jungle,2017,2.250,2,2
+198,10-cloverfield-lane,10 Cloverfield Lane,2016,2.236,1,1
+199,hans-zimmer-in-vienna,Hans Zimmer in Vienna,2018,2.236,1,1
+200,john-williams-in-berlin,John Williams in Berlin,2022,2.236,1,1
+201,logan,Logan,2017,2.133,1,1
+202,annihilation-2018,Annihilation,2018,2.000,2,2
+203,evil-dead-2013,Evil Dead,2013,2.000,2,1
+204,iron-man-2008,Iron Man,2008,2.000,2,1
+205,the-thing-1982,The Thing,1982,2.000,2,1
+206,transformers-age-of-extinction,Transformers: Age of Extinction,2014,2.000,2,2
+207,candyman-2021,Candyman,2021,2.000,1,1
+208,mission-impossible-rogue-nation,Mission: Impossible - Rogue Nation,2015,2.000,1,1
+209,ratatouille,Ratatouille,2007,2.000,1,1
+210,shrek-2,Shrek 2,2004,2.000,1,1
+211,the-bourne-identity,The Bourne Identity,2002,2.000,1,1
+212,the-hobbit-an-unexpected-journey,The Hobbit: An Unexpected Journey,2012,2.000,1,1
+213,the-hobbit-the-battle-of-the-five-armies,The Hobbit: The Battle of the Five Armies,2014,2.000,1,1
+214,the-wolfs-call,The Wolf's Call,2019,2.000,1,1
+215,they-cloned-tyrone,They Cloned Tyrone,2023,2.000,1,1
+216,valerian-and-the-city-of-a-thousand-planets,Valerian and the City of a Thousand Planets,2017,2.000,1,1
+217,belle-2021,Belle,2021,1.732,1,1
+218,fantastic-beasts-and-where-to-find-them,Fantastic Beasts and Where to Find Them,2016,1.732,1,1
+219,godzilla-2014,Godzilla,2014,1.732,1,1
+220,greyhound,Greyhound,2020,1.732,1,1
+221,guardians-of-the-galaxy-vol-3,Guardians of the Galaxy Vol. 3,2023,1.732,1,1
+222,in-the-tall-grass,In the Tall Grass,2019,1.732,1,1
+223,jurassic-world-dominion,Jurassic World Dominion,2022,1.732,1,1
+224,king-kong-2005,King Kong,2005,1.732,1,1
+225,pulp-fiction,Pulp Fiction,1994,1.732,1,1
+226,spectre-2015,Spectre,2015,1.732,1,1
+227,spider-man-no-way-home,Spider-Man: No Way Home,2021,1.732,1,1
+228,the-cabin-in-the-woods,The Cabin in the Woods,2011,1.732,1,1
+229,the-suicide-squad-2021,The Suicide Squad,2021,1.732,1,1
+230,uncharted-2022,Uncharted,2022,1.732,1,1
+231,wolf-man-2025,Wolf Man,2025,1.732,1,1
+232,zero-dark-thirty,Zero Dark Thirty,2012,1.732,1,1
+233,moonfall,Moonfall,2022,1.662,1,1
+234,mortal-engines,Mortal Engines,2018,1.662,1,1
+235,fall-2022,Fall,2022,1.516,1,1
+236,the-burning-sea,The Burning Sea,2021,1.516,1,1
+237,the-hurricane-heist,The Hurricane Heist,2018,1.516,1,1
+238,the-quake-2018,The Quake,2018,1.516,1,1
+239,the-shallows,The Shallows,2016,1.516,1,1
+240,the-wave-2015,The Wave,2015,1.516,1,1
+241,65-2023,65,2023,1.414,1,1
+242,anna-2019,Anna,2019,1.414,1,1
+243,atomic-blonde,Atomic Blonde,2017,1.414,1,1
+244,chappie,Chappie,2015,1.414,1,1
+245,dark-city-1998,Dark City,1998,1.414,1,1
+246,den-of-thieves-2018,Den of Thieves,2018,1.414,1,1
+247,dirty-harry,Dirty Harry,1971,1.414,1,1
+248,extraction-2,Extraction 2,2023,1.414,1,1
+249,luther-the-fallen-sun-2023,Luther: The Fallen Sun,2023,1.414,1,1
+250,men-in-black-1997,Men in Black,1997,1.414,1,1
+251,predator-1987,Predator,1987,1.414,1,1
+252,raiders-of-the-lost-ark,Raiders of the Lost Ark,1981,1.414,1,1
+253,sisu-2022,Sisu,2022,1.414,1,1
+254,spirited-2022,Spirited,2022,1.414,1,1
+255,starship-troopers-1997,Starship Troopers,1997,1.414,1,1
+256,the-haunting-1999,The Haunting,1999,1.414,1,1
+257,the-prince-of-egypt,The Prince of Egypt,1998,1.414,1,1
+258,the-thing-2011,The Thing,2011,1.414,1,1
+259,dolby-amaze-and-leaf-shorts,"Dolby ""Amaze"" and ""Leaf"" Shorts",,1.019,1,1
+260,2001-a-space-odyssey,2001: A Space Odyssey,1968,1.000,1,1
+261,annabelle-creation,Annabelle: Creation,2017,1.000,1,1
+262,armageddon-1998,Armageddon,1998,1.000,1,1
+263,bad-boy-bubby,Bad Boy Bubby,1993,1.000,1,1
+264,bad-boys-ii,Bad Boys II,2003,1.000,1,1
+265,batman-returns,Batman Returns,1992,1.000,1,1
+266,becoming-led-zeppelin,Becoming Led Zeppelin,2025,1.000,1,1
+267,boy-kills-world,Boy Kills World,2023,1.000,1,1
+268,caddo-lake-2024,Caddo Lake,2024,1.000,1,1
+269,candy-cane-lane,Candy Cane Lane,2023,1.000,1,1
+270,cliffhanger,Cliffhanger,1993,1.000,1,1
+271,drive-2011,Drive,2011,1.000,1,1
+272,dungeons-and-dragons-honor-among-thieves,Dungeons & Dragons: Honor Among Thieves,2023,1.000,1,1
+273,early-man,Early Man,2018,1.000,1,1
+274,el-camino-a-breaking-bad-movie,El Camino: A Breaking Bad Movie,2019,1.000,1,1
+275,ex-machina-2014,Ex Machina,2014,1.000,1,1
+276,fantasia-1940,Fantasia,1940,1.000,1,1
+277,fantasia-2000,Fantasia 2000,1999,1.000,1,1
+278,get-out,Get Out,2017,1.000,1,1
+279,ghost-in-the-shell-2017,Ghost in the Shell,2017,1.000,1,1
+280,guns-akimbo,Guns Akimbo,2019,1.000,1,1
+281,how-to-train-your-dragon,How to Train Your Dragon,2010,1.000,1,1
+282,jack-reacher,Jack Reacher,2012,1.000,1,1
+283,jim-button-and-luke-the-engine-driver,Jim Button and Luke the Engine Driver,2018,1.000,1,1
+284,jung-e-2023,Jung_E,2023,1.000,1,1
+285,killers-of-the-flower-moon,Killers of the Flower Moon,2023,1.000,1,1
+286,king-arthur-legend-of-the-sword,King Arthur: Legend of the Sword,2017,1.000,1,1
+287,kubo-and-the-two-strings,Kubo and the Two Strings,2016,1.000,1,1
+288,land-of-bad-2024,Land of Bad,2024,1.000,1,1
+289,missing-link-2019,Missing Link,2019,1.000,1,1
+290,mission-impossible-dead-reckoning,Mission: Impossible – Dead Reckoning Part One,2023,1.000,1,1
+291,mission-impossible-the-final-reckoning,Mission: Impossible – The Final Reckoning,2025,1.000,1,1
+292,mr-and-mrs-smith-2005,Mr. & Mrs. Smith,2005,1.000,1,1
+293,murder-on-the-orient-express-2017,Murder on the Orient Express,2017,1.000,1,1
+294,no-one-will-save-you,No One Will Save You,2023,1.000,1,1
+295,one-battle-after-another,One Battle After Another,2025,1.000,1,1
+296,pearl-harbor,Pearl Harbor,2001,1.000,1,1
+297,pride-and-prejudice-2005,Pride and Prejudice,2005,1.000,1,1
+298,puss-in-boots-the-last-wish,Puss in Boots: The Last Wish,2022,1.000,1,1
+299,rebel-ridge,Rebel Ridge,2024,1.000,1,1
+300,robocop-2014,RoboCop,2014,1.000,1,1
+301,shaun-the-sheep-farmageddon,Shaun the Sheep: Farmageddon,2019,1.000,1,1
+302,sonic-the-hedgehog-2020,Sonic the Hedgehog,2020,1.000,1,1
+303,star-trek-2009,Star Trek,2009,1.000,1,1
+304,talk-to-me-2022,Talk to Me,2022,1.000,1,1
+305,the-adam-project,The Adam Project,2022,1.000,1,1
+306,the-doors,The Doors,1991,1.000,1,1
+307,the-exorcist,The Exorcist,1973,1.000,1,1
+308,the-frighteners,The Frighteners,1996,1.000,1,1
+309,the-grinch-2018,The Grinch,2018,1.000,1,1
+310,the-killer-2023,The Killer,2023,1.000,1,1
+311,the-long-kiss-goodnight,The Long Kiss Goodnight,1996,1.000,1,1
+312,the-mummy-2017,The Mummy,2017,1.000,1,1
+313,the-terminator,The Terminator,1984,1.000,1,1
+314,the-witch,The Witch,2015,1.000,1,1
+315,u-571,U-571,2000,1.000,1,1
+316,uglies-2024,Uglies,2024,1.000,1,1
+317,wild-wild-west,Wild Wild West,1999,1.000,1,1
+318,zootopia-2,Zootopia 2,2025,1.000,1,1
+319,coco,Coco,2017,0.250,1,1

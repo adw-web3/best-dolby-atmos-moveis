@@ -22,3 +22,9 @@ arrival
 # Sources 030 and 035 have commenters pointing out the distinction:
 # Alien: Covenant (2017) got the Atmos treatment, Prometheus did not.
 prometheus-2012
+
+# Super 8 (2011, J.J. Abrams) — no Dolby Atmos mix available.
+super-8
+
+# Terminator 2: Judgment Day (1991) — no Dolby Atmos mix available.
+terminator-2
