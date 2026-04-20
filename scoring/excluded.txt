@@ -9,10 +9,12 @@
 
 # Christopher Nolan does not mix his films in Dolby Atmos; these ship in 5.1 only.
 # Multiple commenters across several sources confirm this (e.g. 023, 026, 029, 031, 032).
+# Inception verified via HighDefDigest 4K UHD review (DTS-HD MA 5.1, no Atmos).
 interstellar
 oppenheimer
 tenet
 dunkirk
+inception
 
 # Arrival (Villeneuve, 2016) predates Villeneuve's Atmos work and has no Atmos mix.
 # Explicitly confirmed in sources 028, 029.

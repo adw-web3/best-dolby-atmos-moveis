@@ -57,6 +57,14 @@ Identical scores sort by: mention count (desc), then normalized_title (asc).
 - **Sentiment** — the schema doesn't capture sentiment, so every mention is treated as positive. Fine in practice: contributors almost exclusively post positive recommendations; explicit negative mentions are filtered out during source capture (see `CHANGE LOG` below).
 - **Community phase bonus** — a reserved scoring bucket for after the draft list is posted to the project's subreddit.
 
+## Atmos availability verification
+
+Because sources frequently recommend films that don't actually have a Dolby Atmos mix — viewers enjoy the audio and lump it in, even when the home release is 5.1 only — every candidate for the final top 100 is cross-checked for Atmos availability before publishing.
+
+Films that sources recommend but that lack an Atmos home release are listed in [`scoring/excluded.txt`](../scoring/excluded.txt) with a short rationale per entry. Those mentions stay in the source files (data fidelity is preserved) but don't contribute to scoring.
+
+Verification uses authoritative sources: HighDefDigest and AVForums for 4K Blu-ray audio-track specs, Dolby's own Atmos listings for streaming availability, and Blu-ray.com for edition-specific audio details. When a commenter in the captured sources points out a film isn't actually in Atmos (e.g. Nolan films, Prometheus), that cross-corroboration also counts.
+
 ## Goal
 
 Produce a transparent, reproducible top-100 ranking of the best Dolby Atmos movies by aggregating many public sources (blog articles, news articles, Reddit posts, Reddit comments, and more), then layer community input from the project's subreddit on top.
@@ -101,3 +109,6 @@ Every change to the scoring algorithm or tier assignments is recorded here.
 
 - **2026-04-18** — v1 algorithm implemented. Tier weights `top=3.0/high=2.0/mid=1.0/low=0.25`, rank bonus max 1.5× for #1, sqrt engagement scaling for Reddit, `sqrt(views + subs/10) / 50` for YouTube. See `scoring/score.py`.
 - **2026-04-18** — Tier assignments made for sources 001–016. 3 top, 6 high, 3 mid, 4 low. See [source-authority-tiers.md](source-authority-tiers.md).
+- **2026-04-19** — Exclusion list added (`scoring/excluded.txt`). First exclusion: Interstellar (Nolan, 5.1 only). Script modified to load the list and skip excluded titles from the ranking while keeping them in the source data.
+- **2026-04-19** — Exclusions extended to cover all Nolan films in the pool (Interstellar, Oppenheimer, Tenet, Dunkirk) plus Arrival, Prometheus, Super 8, and Terminator 2 as non-Atmos films that viewers repeatedly recommended.
+- **2026-04-20** — Full sanity sweep of the top 100 for Atmos availability (see subsection above). Only Inception needed to be added; all other uncertain films (Brave, WALL·E, War of the Worlds 2005, The Amazing Spider-Man 2012, Star Wars saga) verified via HighDefDigest/Dolby/Blu-ray.com to have Atmos home releases. Exclusion list now stands at 9 films.
