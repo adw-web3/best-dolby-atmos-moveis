@@ -30,3 +30,8 @@ super-8
 
 # Terminator 2: Judgment Day (1991) — no Dolby Atmos mix available.
 terminator-2
+
+# Heat (1995, Michael Mann) — no Dolby Atmos mix.
+# The 2022 Director's Definitive Edition 4K UHD ships with DTS-HD MA 5.1 only.
+# Confirmed via HighDefDigest 4K UHD review and Blu-ray.com.
+heat-1995
