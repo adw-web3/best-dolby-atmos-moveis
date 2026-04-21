@@ -35,3 +35,10 @@ terminator-2
 # The 2022 Director's Definitive Edition 4K UHD ships with DTS-HD MA 5.1 only.
 # Confirmed via HighDefDigest 4K UHD review and Blu-ray.com.
 heat-1995
+
+# Sound of Metal (2019) — no Dolby Atmos mix.
+# Criterion Collection 4K UHD (2022) ships with DTS-HD MA 5.1 only.
+# The Oscar-winning sound design was built intentionally as 5.1 to emulate
+# cochlear-implant perception; Criterion preserved the director's intended mix.
+# Confirmed via HighDefDigest, Blu-ray.com, and Criterion's own spec sheet.
+sound-of-metal
