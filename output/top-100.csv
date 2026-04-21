@@ -1,0 +1,101 @@
+rank,normalized_title,title,year,score,mentions,num_sources
+1,blade-runner-2049,Blade Runner 2049,2017,195.381,76,31
+2,dune-2021,Dune,2021,179.972,79,27
+3,mad-max-fury-road,Mad Max: Fury Road,2015,176.637,87,26
+4,ready-player-one,Ready Player One,2018,167.796,74,23
+5,the-batman,The Batman,2022,121.372,40,21
+6,top-gun-maverick,Top Gun: Maverick,2022,117.257,54,19
+7,dune-part-two,Dune: Part Two,2024,82.433,35,12
+8,gravity,Gravity,2013,80.744,42,25
+9,ford-v-ferrari,Ford v Ferrari,2019,75.152,30,16
+10,a-quiet-place,A Quiet Place,2018,67.873,27,17
+11,the-matrix,The Matrix,1999,60.340,27,15
+12,the-lord-of-the-rings-the-fellowship-of-the-ring,The Lord of the Rings: The Fellowship of the Ring,2001,50.518,30,11
+13,pacific-rim,Pacific Rim,2013,43.563,21,11
+14,1917,1917,2019,43.499,24,15
+15,master-and-commander-the-far-side-of-the-world,Master and Commander: The Far Side of the World,2003,40.662,17,5
+16,edge-of-tomorrow,Edge of Tomorrow,2014,40.278,14,7
+17,spider-man-into-the-spider-verse,Spider-Man: Into the Spider-Verse,2018,36.288,12,10
+18,fury-2014,Fury,2014,33.968,11,8
+19,midway-2019,Midway,2019,33.426,14,10
+20,saving-private-ryan,Saving Private Ryan,1998,32.438,18,10
+21,deepwater-horizon,Deepwater Horizon,2016,31.575,12,9
+22,bohemian-rhapsody,Bohemian Rhapsody,2018,29.239,13,12
+23,john-wick-chapter-3-parabellum,John Wick: Chapter 3 - Parabellum,2019,28.946,11,7
+24,a-quiet-place-part-ii,A Quiet Place Part II,2021,28.189,13,7
+25,civil-war,Civil War,2024,28.186,12,7
+26,the-lord-of-the-rings-the-two-towers,The Lord of the Rings: The Two Towers,2002,27.711,14,9
+27,the-lord-of-the-rings-the-return-of-the-king,The Lord of the Rings: The Return of the King,2003,27.692,14,9
+28,twister-1996,Twister,1996,27.529,12,7
+29,godzilla-vs-kong,Godzilla vs Kong,2021,27.400,12,7
+30,roma,Roma,2018,27.381,14,11
+31,no-time-to-die,No Time to Die,2021,26.862,9,8
+32,transformers-2007,Transformers,2007,26.437,15,8
+33,hacksaw-ridge,Hacksaw Ridge,2016,25.629,8,7
+34,oblivion-2013,Oblivion,2013,25.127,6,3
+35,furiosa-a-mad-max-saga,Furiosa: A Mad Max Saga,2024,25.091,10,5
+36,prey-2022,Prey,2022,25.041,10,6
+37,alita-battle-angel,Alita: Battle Angel,2019,25.023,8,7
+38,tron-legacy,Tron: Legacy,2010,24.788,11,5
+39,baby-driver,Baby Driver,2017,22.954,8,7
+40,warfare,Warfare,2025,22.824,9,7
+41,star-wars-the-phantom-menace,Star Wars Episode I: The Phantom Menace,1999,22.795,11,6
+42,godzilla-minus-one,Godzilla Minus One,2023,21.396,10,5
+43,gran-turismo,Gran Turismo,2023,20.058,10,9
+44,john-wick-chapter-4,John Wick: Chapter 4,2023,19.838,9,6
+45,hans-zimmer-live-in-prague,Hans Zimmer Live in Prague,2017,19.420,7,3
+46,kong-skull-island,Kong: Skull Island,2017,18.421,9,7
+47,ambulance-2022,Ambulance,2022,18.262,12,7
+48,twisters-2024,Twisters,2024,17.994,5,4
+49,unbroken,Unbroken,2014,16.984,9,8
+50,john-wick,John Wick,2014,16.782,8,6
+51,avengers-endgame,Avengers: Endgame,2019,16.312,10,6
+52,jurassic-park,Jurassic Park,1993,16.091,6,4
+53,apocalypse-now,Apocalypse Now,1979,16.071,8,5
+54,blade-runner-1982,Blade Runner,1982,15.215,7,6
+55,first-man,First Man,2018,14.953,4,4
+56,man-of-steel,Man of Steel,2013,14.938,6,5
+57,star-wars-revenge-of-the-sith,Star Wars Episode III: Revenge of the Sith,2005,14.655,6,6
+58,the-fifth-element,The Fifth Element,1997,14.521,5,3
+59,soul,Soul,2020,14.446,7,6
+60,spider-man-across-the-spider-verse,Spider-Man: Across the Spider-Verse,2023,14.338,6,6
+61,black-hawk-down,Black Hawk Down,2001,14.257,10,6
+62,13-hours,13 Hours,2016,13.979,5,5
+63,john-wick-chapter-2,John Wick: Chapter 2,2017,13.666,5,4
+64,dredd,Dredd,2012,13.446,8,4
+65,star-trek-into-darkness,Star Trek Into Darkness,2013,12.632,5,3
+66,deadpool-2016,Deadpool,2016,12.513,6,6
+67,nope,Nope,2022,12.382,8,5
+68,sinners,Sinners,2025,12.232,5,5
+69,brave,Brave,2012,11.747,1,1
+70,doctor-sleep,Doctor Sleep,2019,11.712,5,4
+71,wall-e,WALL·E,2008,10.535,2,2
+72,f1-the-movie,F1: The Movie,2025,10.300,5,5
+73,war-of-the-worlds-2005,War of the Worlds,2005,10.071,4,2
+74,mission-impossible-fallout,Mission: Impossible – Fallout,2018,9.771,6,6
+75,us-2019,Us,2019,9.733,4,4
+76,alien-romulus,Alien: Romulus,2024,9.650,7,4
+77,everest-2015,Everest,2015,9.638,4,4
+78,star-wars-the-force-awakens,Star Wars: The Force Awakens,2015,9.463,6,4
+79,avatar-the-way-of-water,Avatar: The Way of Water,2022,9.378,5,4
+80,ghostbusters-afterlife,Ghostbusters: Afterlife,2021,9.060,3,3
+81,6-underground,6 Underground,2019,8.958,6,5
+82,avengers-infinity-war,Avengers: Infinity War,2018,8.664,6,6
+83,ballerina-2025,From the World of John Wick: Ballerina,2025,8.627,2,2
+84,aquaman-2018,Aquaman,2018,8.576,5,3
+85,titanic,Titanic,1997,8.485,2,2
+86,godzilla-king-of-the-monsters,Godzilla: King of the Monsters,2019,8.378,5,3
+87,the-guns-of-navarone,The Guns of Navarone,1961,8.361,3,3
+88,aliens-1986,Aliens,1986,8.071,2,2
+89,nosferatu-2024,Nosferatu,2024,8.014,3,3
+90,uncut-gems,Uncut Gems,2019,8.000,3,3
+91,transformers-dark-of-the-moon,Transformers: Dark of the Moon,2011,7.732,7,5
+92,back-to-the-future,Back to the Future,1985,7.726,3,3
+93,suspiria-1977,Suspiria,1977,7.657,3,2
+94,overlord-2018,Overlord,2018,7.629,3,2
+95,top-gun-1986,Top Gun,1986,7.606,3,3
+96,sicario,Sicario,2015,7.422,3,3
+97,300,300,2006,7.414,5,3
+98,evil-dead-rise,Evil Dead Rise,2023,7.359,3,3
+99,puss-in-boots-the-last-wish,Puss in Boots: The Last Wish,2022,7.145,3,2
+100,a-quiet-place-day-one,A Quiet Place: Day One,2024,7.123,4,4
