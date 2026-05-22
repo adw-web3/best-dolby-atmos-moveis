@@ -1,0 +1,30 @@
+# TV-show titles excluded from the scene ranking.
+#
+# The scene ranking covers narrative FEATURE FILMS only. Scenes from TV shows
+# are still captured in sources/ (we don't revise history) but score.py drops
+# them from the ranking by joining each scene's normalized_title against this
+# list. See docs/methodology.md.
+#
+# Format: one normalized_title per line. Blank lines and # comments ignored.
+
+archive-81-s1e8
+dark-s1e2
+game-of-thrones-s4e9
+game-of-thrones-s8
+masters-of-the-air-s1e5
+midnight-mass
+midnight-mass-s1e1
+our-planet
+our-planet-s1e1
+see
+see-s1e1
+see-s1e3
+snowpiercer-s3e10
+star-wars-andor-s1e5
+stranger-things-s1e1
+stranger-things-s4e6
+stranger-things-s5e8
+the-fall-of-the-house-of-usher
+the-green-planet
+the-haunting-of-hill-house-s1e6
+the-last-of-us-s1e1

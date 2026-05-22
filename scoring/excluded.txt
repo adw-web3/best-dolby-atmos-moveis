@@ -42,3 +42,23 @@ heat-1995
 # cochlear-implant perception; Criterion preserved the director's intended mix.
 # Confirmed via HighDefDigest, Blu-ray.com, and Criterion's own spec sheet.
 sound-of-metal
+
+# Added 2026-05-22 from the scene-side Atmos verification: every film captured
+# in scenes/sources/ was checked for a Dolby Atmos home mix (see
+# scenes/scoring/atmos-check.csv). The following had no Atmos release.
+# (interstellar, oppenheimer, tenet, dunkirk, inception, heat-1995, sound-of-metal
+#  were already excluded above and are not repeated here.)
+batman-begins
+code-8-part-2
+everly-2014
+harry-potter-and-the-half-blood-prince
+shin-godzilla
+spectre-2015
+stranger-things-s1e1
+the-big-lebowski
+the-book-of-eli
+the-dark-knight
+the-last-samurai
+the-night-before
+the-revenant
+van-helsing

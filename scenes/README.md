@@ -22,8 +22,10 @@ scenes/
   templates/        blank scene templates — copy one when adding a new source
   docs/
     methodology.md  scene schema, scoring approach, change log
-  scoring/          (empty for now; algorithm will be added once enough sources exist)
-  output/           (empty for now; ranking will be auto-generated)
+  scoring/          score.py (the ranking algorithm) + atmos-check.csv
+                    + timestamps.csv + tv-shows.txt
+                    + descriptions.csv + scene-names.csv
+  output/           top-100.md + top-100.csv + ranking.csv (auto-generated — do not hand-edit)
 ```
 
 ## Schema (short version)
@@ -34,4 +36,10 @@ Each source file is YAML frontmatter with a `scenes_mentioned:` list. Each entry
 
 ## Status
 
-**Scaffolding complete.** Templates and methodology in place; no sources captured yet. Backfill of the four scene-focused articles already in the movie-side `sources/` ([001](../sources/news-articles/001-whathifi-best-dolby-atmos-movie-scenes.md), [003](../sources/blog-articles/003-audioadvice-top-10-dolby-atmos-movie-scenes.md), [006](../sources/news-articles/006-hifi-de-15-filmszenen-dolby-atmos.md), [009](../sources/blog-articles/009-audioadvice-best-dolby-atmos-movie-scenes.md)) is the next step.
+**Live.** 48 sources captured (24 Reddit posts, 11 blogs, 8 YouTube videos, 5 news articles) covering 400 unique scenes. The ranking covers **feature films only** — 354 scenes rank, after dropping 21 TV-show scenes (out of scope) and 25 scenes from films with no Dolby Atmos home mix. Scoring v1 is implemented in [scoring/score.py](scoring/score.py); the published ranking is [output/top-100.md](output/top-100.md) / [output/top-100.csv](output/top-100.csv), with the full table in [output/ranking.csv](output/ranking.csv). See [docs/methodology.md](docs/methodology.md) for the scoring algorithm and change log.
+
+Regenerate the ranking after adding or editing sources:
+
+```bash
+.venv/bin/python scenes/scoring/score.py
+```
