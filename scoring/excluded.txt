@@ -62,3 +62,16 @@ the-last-samurai
 the-night-before
 the-revenant
 van-helsing
+
+# Added 2026-05-25 from manual verification of ranks 101–211 in ranking.csv.
+# None of the following ship with a Dolby Atmos home mix.
+alien-1979
+shutter-island
+skyfall
+speed-1994
+the-dark-knight-rises
+swordfish
+cutthroat-island
+lone-survivor
+crimson-peak
+evil-dead-2013
