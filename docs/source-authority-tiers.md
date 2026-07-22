@@ -114,3 +114,27 @@ Format:
 - **URL / domain:** sanctuaryoftruth.com
 - **Reason:** AI-generated / SEO-spam content with factual errors (incorrect Atmos launch details, nonsensical phrasing, affiliate spam text)
 - **First added:** 2026-04-18 in source file 016
+
+### HD Report
+- **Tier:** mid
+- **URL / domain:** hd-report.com
+- **Reason:** long-running niche home-media publication (4K/HDR/Atmos release tracking since the HD era); staff-bylined listicles without per-title technical review depth
+- **First added:** 2026-07-22 in tv-shows source file 004
+
+### Mix
+- **Tier:** top
+- **URL / domain:** mixonline.com
+- **Reason:** the professional audio industry's standard trade publication (est. 1977); mix-quality analysis by expert editors is its core beat — caveat that its craft features profile production rather than rank content comparatively
+- **First added:** 2026-07-22 in tv-shows source file 015
+
+### High-Def Digest
+- **Tier:** high
+- **URL / domain:** highdefdigest.com / ultrahd.highdefdigest.com
+- **Reason:** long-running home-media review publication with structured per-title audio sections, including dedicated Atmos assessments; already used as an Atmos-verification reference on the movie side
+- **First added:** 2026-07-22 in tv-shows source file 016
+
+### A Sound Effect
+- **Tier:** mid
+- **URL / domain:** asoundeffect.com
+- **Reason:** the sound-design community's leading site (interviews, craft features, SFX marketplace); credible on mix craft but coverage profiles production rather than comparatively reviewing content
+- **First added:** 2026-07-22 in tv-shows source file 017

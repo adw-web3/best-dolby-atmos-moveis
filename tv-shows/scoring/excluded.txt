@@ -1,0 +1,46 @@
+# Shows excluded from the TV ranking — verified to have NO Dolby Atmos mix on
+# any mainstream streaming platform or home-video release.
+#
+# This is the TV list's OWN exclusion file (the movie-side scoring/excluded.txt
+# is film-specific and does not apply here). It is filled by the curator after
+# external verification; scoring/atmos-check.csv is the handoff worksheet.
+#
+# Format: one normalized_title per line. Blank lines and # comments ignored.
+# Convention: a comment above each entry (or batch) explaining the finding.
+
+# ---------------------------------------------------------------------------
+# Batch added 2026-07-22 — external Atmos verification (curator's tool).
+# 8 confirmed non-Atmos + 1 unverified. See atmos-check.csv for per-row notes.
+
+# Absent from HighDefDigest's comprehensive Prime Video Atmos list; streams
+# HDR10 with 5.1. Prime also confirmed to have removed any Atmos icon
+# (r/TheExpanse availability thread, 2025). No Atmos disc exists.
+the-expanse
+
+# No 4K/Atmos remaster exists — absent from Max's 4K/Atmos lists, streams HD
+# 5.1; fans are still requesting a remaster.
+band-of-brothers
+
+# HD Report's Netflix list: 4K Dolby Vision but 5.1 audio only.
+black-summer
+
+# Netflix 4K stream carries 5.1 only.
+better-call-saul
+
+# Netflix 4K remaster is 5.1 only (only the El Camino movie got Atmos).
+breaking-bad
+
+# No UHD/Atmos listing anywhere; Sky's 2023 Atmos catalog was limited to
+# select sports/Sky Cinema, so Sky Max carriage was 5.1/stereo at best.
+then-you-run
+
+# HD Report's Netflix list: 4K Dolby Vision, 5.1 only.
+creature
+
+# HD Report confirms the Disney+ stream is 5.1 only.
+welcome-to-earth
+
+# 2014 broadcast animated series; no per-title source addresses its audio
+# format at all. Almost certainly 5.1 but nothing citable confirms it —
+# excluded as UNVERIFIED rather than confirmed-false.
+star-wars-rebels

@@ -33,11 +33,15 @@ docs/
   source-authority-tiers.md  how each source is rated, and why
   sources-index.md           running index of every source added
 scenes/                      parallel sub-project ranking specific demo scenes (see scenes/README.md)
+tv-shows/                    parallel sub-project ranking TV series (see tv-shows/README.md)
 ```
 
-## Related: scene ranking
+## Related rankings
 
-A parallel ranking of specific **Dolby Atmos demo scenes** (e.g. "Mad Max: Fury Road — sandstorm chase") lives under [`scenes/`](scenes/). It uses the same data-driven approach but ranks scenes rather than whole films, with its own sources, templates, and (eventually) scoring. See [`scenes/README.md`](scenes/README.md) for details.
+Two parallel sub-projects use the same data-driven approach with their own sources, templates, and scoring:
+
+- **Demo scenes** — specific Dolby Atmos demo scenes (e.g. "Mad Max: Fury Road — sandstorm chase") under [`scenes/`](scenes/). See [`scenes/README.md`](scenes/README.md).
+- **TV shows** — whole series (e.g. "Stranger Things", "Our Planet"), including miniseries and documentary/nature series, under [`tv-shows/`](tv-shows/). See [`tv-shows/README.md`](tv-shows/README.md).
 
 ## How to read a source file
 
